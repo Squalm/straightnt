@@ -67,6 +67,14 @@ body {
   text-align: center;
 }
 
+#top {
+	position: fixed;
+	top: 2vh;
+	left: 1em;
+	right: 1em;
+	text-align: center;
+}
+
 h1 {
   margin: 0;
   font-size: 6vmin;

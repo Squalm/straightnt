@@ -12,6 +12,11 @@ window.addEventListener("load", function(event)
     const url = new URL(window.location.href);
     let f = url.searchParams.get("f");
     if (f != null) {
+
+        if (f == "inclusive pride") {
+            f = "queer";
+        }
+
         document.getElementById("congrats").innerText = greeting[Math.floor(Math.random() * greeting.length)] + f + "!";
         document.getElementById("message").innerText = message[Math.floor(Math.random() * message.length)];
         document.getElementById("body").classList = f;
@@ -22,11 +27,29 @@ window.addEventListener("load", function(event)
         }
         if (f == "inclusive pride") {
             document.getElementById("body").classList = "inclPride";
-            document.getElementById("congrats").innerText = greeting[Math.floor(Math.random() * greeting.length)] + "queer!";
         }
         if (f == "genderfluid") {
             document.getElementById("main").style.color = "white";
         }
+        if (f == "inclusive pride" || f == "ace" || f == "agender") {
+            document.getElementById("top").style.color = "white";
+        }
+
+        // For sending to others
+        let person = url.hash;
+        if (person == "#out") {
+            document.getElementById("congrats").innerText = "Hey there, I'm " + f;
+            document.getElementById("message").innerText = "I just wanted to let you know; it's kinda important to me."
+            document.getElementById("top").innerHTML += ' -- <a href="#out" onclick="copylink()">Copy the link</a> to this page and share with your friends.'
+        }
+
+    } else {
+        document.getElementById("top").innerText = "";
     }
 
 });
+
+function copylink() {
+    navigator.clipboard.writeText(window.location.href);
+    document.getElementById("top").innerHTML = document.getElementById("top").innerHTML.split("--")[0] + " -- " + "Copied link!";
+}
