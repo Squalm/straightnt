@@ -1,0 +1,287 @@
+:root {
+  --red: #e40303;
+  --orange: #ff8c00;
+  --yellow: #ffed00;
+  --green: #008026;
+  --blue: #004dff;
+  --purple: #750787;
+  --grey: #a3a3a3;
+  --arog: #309c34;
+  --arolg: #9dce69;
+  --agenderg: #b7f584;
+  --pink: #d60270;
+  --bip: #9a4f96;
+  --brown: #784f16;
+  --fluidp: #fe75a1;
+  --genderqg: #4b8124;
+  --genderqp: #b67edc;
+  --lesbianp: #9b1a58;
+  --lesbianlp: #cf559b;
+  --lesbiano: #ff8f45;
+  --lesbianr: #d12601;
+  --panp: #ff1b8d;
+  --pany: #ffda00;
+  --panb: #1bb3ff;
+  --polyamorousr: #eb3323;
+  --polyg: #07d669;
+  --transb: #5ccefa;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background: linear-gradient(
+    to bottom, 
+    var(--red), var(--red) 16.67%, 
+    var(--orange) 16.67%, var(--orange) 33.33%, 
+    var(--yellow) 33.33%, var(--yellow) 50%, 
+    var(--green) 50%, var(--green) 66.67%, 
+    var(--blue) 66.67%, var(--blue) 83.33%, 
+    var(--purple) 83.33%, var(--purple)
+  );
+
+  width: 100%;
+  height: 100vh;
+  font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
+#main {
+  height: 12vh;
+  width: 80vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -6vh;
+  margin-left: -40vw;
+  text-align: center;
+}
+
+#bottom {
+  position: fixed;
+  top: 95vh;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6vmin;
+}
+
+p {
+  font-size: 2vmin;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.ace {
+  background: linear-gradient(
+		to bottom,
+		black,
+		black 25%,
+		var(--grey) 25%,
+		var(--grey) 50%,
+		white 50%,
+		white 75%,
+		var(--purple) 75%,
+		var(--purple)
+  );
+}
+
+.aro {
+  background: linear-gradient(
+		to bottom,
+		var(--arog),
+		var(--arog) 20%,
+		var(--arolg) 20%,
+		var(--arolg) 40%,
+		white 40%,
+		white 60%,
+		var(--grey) 60%,
+		var(--grey) 80%,
+		black 80%,
+		black
+	);
+}
+
+.agender {
+  background: linear-gradient(
+    to bottom,
+    black,
+    black 14.29%,
+    grey 14.29%,
+    grey 28.57%,
+    white 28.57%,
+    white 42.86%,
+    var(--agenderg) 42.86%,
+    var(--agenderg) 57.14%,
+    white 57.14%,
+    white 71.43%,
+    grey 71.43%,
+    grey 85.71%,
+    black 85.71%,
+    black
+  );
+}
+
+.bi {
+  background: linear-gradient(
+		to bottom,
+		var(--pink),
+		var(--pink) 40%,
+		var(--bip) 40%,
+		var(--bip) 60%,
+		var(--blue) 60%,
+		var(--blue)
+	);
+}
+
+.enby {
+  background: linear-gradient(
+		to bottom,
+		yellow,
+		yellow 25%,
+		white 25%,
+		white 50%,
+		var(--bip) 50%,
+		var(--bip) 75%,
+		black 75%,
+		black
+	);
+}
+
+.inclPride {
+  background: linear-gradient(
+		to bottom,
+		black,
+		black 12.5%,
+		var(--brown) 12.5%,
+		var(--brown) 25%,
+		var(--red) 25%,
+		var(--red) 37.5%,
+		var(--orange) 37.5%,
+		var(--orange) 50%,
+		var(--yellow) 50%,
+	  var(--yellow) 62.5%,
+		var(--green) 62.5%,
+		var(--green) 75%,
+		var(--blue) 75%,
+		var(--blue) 87.5%,
+		var(--purple) 87.5%,
+		var(--purple)
+	);
+}
+
+.gay {
+  background: linear-gradient(
+    to bottom, 
+    var(--red), var(--red) 16.67%, 
+    var(--orange) 16.67%, var(--orange) 33.33%, 
+    var(--yellow) 33.33%, var(--yellow) 50%, 
+    var(--green) 50%, var(--green) 66.67%, 
+    var(--blue) 66.67%, var(--blue) 83.33%, 
+    var(--purple) 83.33%, var(--purple)
+  );
+}
+
+.genderfluid {
+  background: linear-gradient(
+		to bottom,
+		var(--fluidp),
+		var(--fluidp) 20%,
+		white 20%,
+		white 40%,
+		var(--purple) 40%,
+		var(--purple) 60%,
+		black 60%,
+		black 80%,
+		var(--blue) 80%,
+		var(--blue)
+	);
+}
+
+.genderqueer {
+  background: linear-gradient(
+		to bottom,
+		var(--genderqp),
+		var(--genderqp) 33.33%,
+		white 33.33%,
+		white 66.67%,
+		var(--genderqg) 66.67%,
+    var(--genderqg)
+	);
+}
+
+.lesbian {
+  background: linear-gradient(
+		to bottom,
+		var(--lesbianr),
+		var(--lesbianr) 20%,
+		var(--lesbiano) 20%,
+		var(--lesbiano) 40%,
+		white 40%,
+		white 60%,
+		var(--lesbianlp) 60%,
+		var(--lesbianlp) 80%,
+		var(--lesbianp) 80%,
+		var(--lesbianp)
+	);
+}
+
+.pan {
+  background: linear-gradient(
+		to bottom,
+		var(--panp),
+		var(--panp) 33.33%,
+		var(--pany) 33.33%,
+		var(--pany) 66.67%,
+		var(--panb) 66.67%,
+		var(--panb)
+	);
+}
+
+.polyamorous {
+  background: linear-gradient(
+		to bottom,
+		blue,
+		blue 33.33%,
+		var(--polyamorousr) 33.33%,
+		var(--polyamorousr) 66.66%,
+		black 66.66%,
+		black
+	);
+}
+
+.poly {
+  background: linear-gradient(
+		to bottom,
+		var(--panp),
+		var(--panp) 33.33%,
+		var(--polyg) 33.33%,
+		var(--polyg) 66.67%,
+		var(--panb) 66.67%,
+		var(--panb)
+	);
+}
+
+.trans {
+  background: linear-gradient(
+		to bottom,
+		var(--transb),
+		var(--transb) 20%,
+		pink 20%,
+		pink 40%,
+		white 40%,
+		white 60%,
+		pink 60%,
+		pink 80%,
+		var(--transb) 80%,
+		var(--transb)
+	);
+}
