@@ -61,7 +61,7 @@ body {
 
 #bottom {
   position: fixed;
-  top: 95vh;
+  bottom: 2vh;
   width: 100%;
   text-align: center;
 }
@@ -72,7 +72,7 @@ h1 {
 }
 
 p {
-  font-size: 2vmin;
+  font-size: 3vmin;
   margin: 0;
 }
 
