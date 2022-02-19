@@ -24,6 +24,9 @@ window.addEventListener("load", function(event)
             document.getElementById("body").classList = "inclPride";
             document.getElementById("congrats").innerText = greeting[Math.floor(Math.random() * greeting.length)] + "queer!";
         }
+        if (f == "genderfluid") {
+            document.getElementById("main").style.color = "white"
+        }
     }
 
 });
