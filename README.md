@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9dd4794a-e47f-417b-aa5e-06414dcef389/deploy-status)](https://app.netlify.com/sites/straightnt/deploys)
 
-# Straightn't
+# [Straightn't](https://straightnt.netlify.app/)
 A little website so you know you're not straight.
 
 ![The Asexual page](https://github.com/Squalm/straightnt/blob/main/screenshots/ace.png)
