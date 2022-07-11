@@ -29,7 +29,7 @@ function genpage(reload) {
         document.getElementById("body").classList = f;
 
         // Specifics for exceptional(ly great) flags
-        if (f == "aro" || f == "agender" || f == "enby" || f == "polyamorous") {
+        if (f == "aro" || f == "agender" || f == "enby" || f == "polyamorous" || f == "queer") {
             document.getElementById("bottom").style.color = "white";
         }
         if (f == "inclusive pride") {
@@ -39,7 +39,7 @@ function genpage(reload) {
         if (f == "genderfluid") {
             document.getElementById("main").style.color = "white";
         }
-        if (f == "inclusive pride" || f == "ace" || f == "agender") {
+        if (f == "inclusive pride" || f == "ace" || f == "agender" || f == "queer") {
             document.getElementById("top").style.color = "white";
         }
 

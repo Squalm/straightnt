@@ -25,6 +25,18 @@
   --polyamorousr: #eb3323;
   --polyg: #07d669;
   --transb: #5ccefa;
+  --gaydg: #078D70;
+  --gayg: #26CEAA;
+  --gaylg: #98E8C1;
+  --gaylb: #7BADE2;
+  --gayb: #5049CC;
+  --gaydb: #3D1A78;
+  --qlb: #9ad9eb;
+  --qdb: #00a4e7;
+  --qg: #b5e61d;
+  --qy: #ffc90c;
+  --qdr: #fc6666;
+  --qlr: #feafc9;
 }
 
 html {
@@ -188,14 +200,22 @@ a {
 }
 
 .gay {
-  background: linear-gradient(
-    to bottom, 
-    var(--red), var(--red) 16.67%, 
-    var(--orange) 16.67%, var(--orange) 33.33%, 
-    var(--yellow) 33.33%, var(--yellow) 50%, 
-    var(--green) 50%, var(--green) 66.67%, 
-    var(--blue) 66.67%, var(--blue) 83.33%, 
-    var(--purple) 83.33%, var(--purple)
+  	background: linear-gradient(
+    	to bottom,
+		var(--gaydg),
+		var(--gaydg) 14.29%,
+		var(--gayg) 14.29%,
+		var(--gayg) 28.57%,
+		var(--gaylg) 28.57%,
+		var(--gaylg) 42.86%,
+		white 42.86%,
+		white 57.14%,
+		var(--gaylb) 57.14%,
+		var(--gaylb) 71.43%,
+		var(--gayb) 71.43%,
+		var(--gayb) 85.71%,
+		var(--gaydb) 85.71%,
+		var(--gaydb)
   );
 }
 
@@ -292,5 +312,29 @@ a {
 		pink 80%,
 		var(--transb) 80%,
 		var(--transb)
+	);
+}
+
+.queer {
+	background: linear-gradient(
+		to bottom,
+		black,
+		black 11.11%,
+		var(--qlb) 11.11%,
+		var(--qlb) 22.22%,
+		var(--qdb) 22.22%,
+		var(--qdb) 33.33%,
+		var(--qg) 33.33%,
+		var(--qg) 44.44%,
+		white 44.44%,
+		white 55.55%,
+		var(--qy) 55.55%,
+		var(--qy) 66.66%,
+		var(--qdr) 66.66%,
+		var(--qdr) 77.77%,
+		var(--qlr) 77.77%,
+		var(--qlr) 88.88%,
+		black 88.88%,
+		black
 	);
 }
