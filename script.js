@@ -46,9 +46,12 @@ function genpage(reload) {
         // For sending to others
         let person = url.hash;
         if (person == "#out") {
+            if (f == "inclusive pride") {
+                f = "queer"
+            }
             document.getElementById("congrats").innerText = "Hey there, I'm " + f;
             document.getElementById("message").innerText = "I just wanted to let you know; it's kinda important to me.";
-            document.getElementById("top").innerHTML += ' -- <a href="#out" onclick="copylink()">Copy the link</a> to this page and share with your friends.';
+            document.getElementById("top").innerHTML = '<a href="#out" onclick="copylink()">Copy the link</a> to this page and share with your friends.';
         }
 
     } else {
