@@ -1,8 +1,10 @@
-window.addEventListener("load", function(event) 
+// eslint-disable-next-line no-unused-vars
+window.addEventListener("load", function(_event) 
 {
     genpage(true);
 });
 
+// eslint-disable-next-line no-unused-vars
 function copylink() {
     navigator.clipboard.writeText(window.location.href);
     document.getElementById("top").innerHTML = document.getElementById("top").innerHTML.split("--")[0] + " -- " + "Copied link!";

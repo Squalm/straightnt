@@ -1,0 +1,25 @@
+{
+  "name": "straightnt",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/9dd4794a-e47f-417b-aa5e-06414dcef389/deploy-status)](https://app.netlify.com/sites/straightnt/deploys)",
+  "main": "index.html",
+  "dependencies": {
+    "sass": "^1.49.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squalm/straightnt.git"
+  },
+  "author": "Chirp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Squalm/straightnt/issues"
+  },
+  "homepage": "https://github.com/Squalm/straightnt#readme"
+}
