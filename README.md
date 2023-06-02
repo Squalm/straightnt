@@ -3,7 +3,7 @@
 # [Straightn't](https://straightnt.netlify.app/)
 A little website so you know you're not straight.
 
-![The Asexual page](https://github.com/Squalm/straightnt/blob/main/screenshots/ace.png)
+![The Aromantic page](https://github.com/Squalm/straightnt/blob/main/screenshots/ace.png)
 
-There are a couple things you can do on this site: move between flags for random combinations of sweet sweet validation and use that little out yourself button.
+There are a couple things you can do on this site: move between flags for random comments and use that little out yourself button.
 To use the "out myself" button simply press the button and send the url to whoever you want (you can copy it using the button or manually).
