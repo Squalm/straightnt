@@ -37,15 +37,17 @@ function genpage(reload) {
     "What's this? You're ",
     "Hallelujah! You're ",
     "You're perfect; you're ",
+    "Kudos, you're "
   ];
   const message = [
     "And that's super valid. You are loved.",
     "And that's epic.",
     "We're so glad you know.",
     "And it's alright even if that changes.",
-    "You're still a great person.",
     "Isn't that awesome?",
     "People care about you. Stay safe.",
+    "Didn't realise you could get cooler!",
+    "Oh great. Another reason you're the best.",
   ];
 
   if (reload) {
